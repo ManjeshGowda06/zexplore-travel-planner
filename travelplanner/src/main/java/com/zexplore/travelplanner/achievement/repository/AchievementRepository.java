@@ -1,8 +1,0 @@
-package com.zexplore.travelplanner.achievement.repository;
-
-
-import com.zexplore.travelplanner.model.Achievement;
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public interface AchievementRepository extends JpaRepository<Achievement, Long> {
-}
